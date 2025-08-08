@@ -24,7 +24,7 @@ Backend for the Leave Application system.
 
 1. Clone the repo:
 
-   git clone https://github.com/your-org/leave-app-backend.git
+   git clone https://github.com/adxmmbz/leave-app.git
    cd leave-app-backend/LeaveApp.Api/
    dotnet restore
    

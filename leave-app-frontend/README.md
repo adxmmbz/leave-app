@@ -11,7 +11,7 @@ Angular frontend for the Leave Application system.
 
 1. Clone the repo:
 
-   git clone https://github.com/your-org/leave-app-frontend.git
+   git clone https://github.com/adxmmbz/leave-app.git
    cd leave-app-frontend
 
 2. Install dependencies:
