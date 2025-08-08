@@ -10,7 +10,7 @@ RUN npm run build --prod
 
 # NGINX stage
 FROM nginx:alpine
-COPY --from=build /app/dist/leave-app-frontend /usr/share/nginx/html
+COPY --from=build /app/dist/leave-app-frontend/browser /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
