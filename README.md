@@ -24,14 +24,14 @@ docker compose up -d --build
 
 This will:
 - Start **SQL Server** in Docker (port `1433`)
-- Build and serve the **Angular frontend** via NGINX (port `4200`)
+- Build and serve the **Angular frontend** via NGINX (port `80`)
 
 ---
 
 ## 🌐 Access the Application
 
 Frontend (Angular):  
-👉 http://localhost:4200
+👉 http://localhost:80
 
 ---
 
