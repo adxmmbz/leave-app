@@ -102,3 +102,4 @@ docker compose up -d
 
 Feel free to reach out or open an issue on the repo:  
 👉 https://github.com/adxmmbz/leave-app/issues
+👉 adam.haikal@mybiz.com
