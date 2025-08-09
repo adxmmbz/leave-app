@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<body>
+    <h1 id="welcome"></h1>
+    <script>
+    const user = JSON.parse(sessionStorage.getItem('user') || '{}');
+    if (user.role) {
+      document.getElementById('welcome').innerText =
+        user.role === 'Admin' ? 'Welcome Admin' : 'Welcome Employee';
+    } else {
+      window.location = 'login.html';
+    }
+    </script>
+</body>
+</html>
