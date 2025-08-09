@@ -1,0 +1,2 @@
+wwwroot\dashboard.html
+wwwroot\index.html
